@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CVT</title>
+    <title>Foster Census</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,12 +11,24 @@
   </head>
   <body>
     <div class="p-4 bg-dark text-white text-center" id="naslov">
-      <h1>CVT</h1>
-      <div>by <a style="font-size: larger; font-weight: bold; color: white; text-decoration: none;" href="https://www.math.auckland.ac.nz/~conder/">???</a> and <a style="font-size: larger; font-weight: bold; color: white; text-decoration: none;" href="https://users.fmf.uni-lj.si/potocnik/">Primož Potočnik</a></div>
+      <h1>Census of cubic edge-transitive graphs</h1>
+      <div>by <a style="font-size: larger; font-weight: bold; color: white; text-decoration: none;" href="https://www.math.auckland.ac.nz/~conder/">Marston Conder</a> and <a style="font-size: larger; font-weight: bold; color: white; text-decoration: none;" href="https://users.fmf.uni-lj.si/potocnik/">Primož Potočnik</a></div>
     </div>
     <div class="container-xl mt-5 px-sm-5">
       <p>
-        Hello World <a href="files/deleteme.html">markdown test</a>
+        This site contains the list of all cubic edge-transitive graphs on at most 10000 vertices. Such a graph can be either vertex-transitive (and thus <i>arc-transitive</i>), or non (in this case it is said to be <i>semisymmetric</i>). Cubic arc-transitive graphs form a widely studied class of graphs, and first attempts of compiling a comprehensive list of such graphs goes back to Ronald Foster. Even though Foster started collecting these graph back in the 1930's a forst printed copy of his collection of graphs was first published in 1988. In 2002, Marston Conder and Peter Dobcsanyi presented a first computer generated census of cubic arc-transitive graphs on up to 768 vertices (see M. Conder and P. Dobcsanyi, Trivalent symmetric graphs on up to 768 vertices, J. Combinatorial Mathematics & Combinatorial Computing  40 (2002), 41-63). Conder later extended this list, first to 2048 vertices, and in 2011, up to 10000 vertices. A summary of the census is available at <a href="https://www.math.auckland.ac.nz/~conder/symmcubic10000list.txt">his webpage</a>.
+      </p>
+      <p>
+        Similarly, the first census of cubic semisymmetric graphs appeared in a paper by Conder, Malnič, Marušič, and Potočnik, 
+        <i>A census of cubic semisymmetric graphs on up to $768$ vertices,</i> J. Alg. Combin. 23 (2006), 255-294, and was later extended on up to 10000 vertices by Conder and Potočnik. A summary of the extended census is available <a href="https://www.math.auckland.ac.nz/~conder/SemisymmCubic10000.txt">here</a>.
+      </p>
+      <p>
+        Here, we provide magma packages containing the graphs from these two extended censuses:
+        <lu>
+          <li>Cubic <a href="https://users.fmf.uni-lj.si/potocnik/FosterCensus/FosterCensus.zip">arc-transitive</a> graphs up to 10000 vertices (128 MB).</li>
+          <li>Cubic <a href="files/CubicSS.zip">semisymmetric</a> graphs up to 10000 vertices (38 MB).</li>
+        </lu>
+        Instructions, how to use the packages, are available <a href="files/MagmaPackageDescription.html">here</a>.
       </p>
     </div>
     <div class="mt-5 p-4 bg-dark text-white text-center">
