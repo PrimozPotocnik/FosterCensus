@@ -1,12 +1,3 @@
-# Template for projects' websites
-## How to use it
-* Click on `Use this template` button and create new repository
-* Clone the new repository and change it as you like
-* Stage all changes, commit, push
-  ```
-  $ cd <path to the new repository>
-  $ git add .
-  $ git commit
-  $ git push
-  ```
+# Foster Census
+This is a repository containing all edge-transitive graphs on up to 10.000 vertices, both vertex-transitive and semisymmetric. The former were created by Marston Conder, and the latter were found as a joint work of Marston Conder and Primož Potočnik
   
