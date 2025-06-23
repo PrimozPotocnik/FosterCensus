@@ -31,5 +31,6 @@ tr:nth-child(even) {
 
 img {
     width: 350px;
+    border-radius: 100%;
     aspect-ratio: 1;
 }
